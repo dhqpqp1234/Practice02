@@ -13,9 +13,9 @@ public class Ex08 {
 		System.out.print("숫자3: ");
 		int num3 = sc.nextInt();
 		
-		if (num<num2) {
+		if (num<num2 && num<num3) {
 			System.out.println("가장 작은수는 "+num+" 입니다.");
-		}else if(num2<num3) {
+		}else if(num2<num && num2<num3) {
 			System.out.println("가장 작은수는 "+num2+" 입니다.");
 		}else {
 			System.out.println("가장 작은수는 "+num3+" 입니다.");
