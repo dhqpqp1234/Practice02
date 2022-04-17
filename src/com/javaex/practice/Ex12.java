@@ -27,8 +27,11 @@ public class Ex12 {
 				System.out.println("결과는: "+(num*num1));
 			break;
 			case "/":
+				if (num1 != 0){
 				System.out.println("결과는: "+num2);
-			
+				}else {
+				System.out.println("계산할 수 없습니다.);	
+				}
 			break;
 				
 			default :
